@@ -29,24 +29,17 @@ class PostList extends Component {
   }
 
   handleOptionChange (event, data) {
-    console.log(data.value)
     this.props.changeOption(data.value)
-
-    // let selectedCategories = this.props.value.map(x => x.value)
     this.props.sortQuestions(data.value, this.props.value)
   }
 
   handleCategoryChange (event, data) {
-    console.log('You\'ve selected:', data.value)
-    // this.props.changeValue(data.value)
-
-    console.log('sortBy ', this.props.option)
     this.props.sortQuestions(this.props.option, data.value)
   }
 
   locationLoaded () {
-    let district
-    let city
+    let district = ''
+    let city = ''
     let location = this.props.currentLocation.name.address_components
     if (location.length > 1) {
       district = location[2].long_name
