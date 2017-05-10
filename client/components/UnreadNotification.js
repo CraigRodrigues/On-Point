@@ -12,7 +12,6 @@ class UnreadNotification extends Component {
   }
 
   setUnreadToFalse () {
-    // debugger
     this.props.markQuestionsAsRead()
     this.props.sortQuestions('New', [])
   }

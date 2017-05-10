@@ -111,24 +111,22 @@ var checkClosestCentroid = function (centroids, point, minDist) {
 
 var clusterPoints = function (points, minDist, startPoint) {
   var centroids = []
-  var currentPoint = {value: {coordinates: startPoint}} // Mock structure of other points
-  // Create linked list from points, also parse st_asgeojson
+  // Mock structure of other points
+  var currentPoint = {value: {coordinates: startPoint}}
   var list = arrayToListWithParse(points)
-  // While list.head
+
   while (list.head !== null) {
-    // Furthest point from currentPoint becomes currentPoint
     currentPoint = findFurthest(list, currentPoint)
-    // Remove currentPoint from list
+
     if (currentPoint) {
       list.removeNode(currentPoint)
     }
-    // Iterate through existing clusters
+
     // Check if currentPoint is within minDist, as well as which centroid has the smallest minDist
     var closest = checkClosestCentroid(centroids, currentPoint, minDist)
-    // If so, push to sub-array
-    // Else, push to centroids array
+
+    // If so, push to sub-array. Else, push to centroids array
     closest ? closest.push(currentPoint.value) : centroids.push([currentPoint.value])
-    // Go back to line 34
   }
   return centroids
 }
