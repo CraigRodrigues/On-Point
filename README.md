@@ -22,7 +22,7 @@ On Point is a geolocation-based Q&A where users ask and answer nearby questions 
 
 Ask a question and people within a 1/4 mile radius will hear that question immediately. See new questions as you move. Learn about the community around you!
 
-You can see the app here: [onpoint.me](onpoint.me)
+## You can play with the app live here: [onpoint.me](onpoint.me)
 
 ![On Point Screenshot](http://i.imgur.com/tkQCZGN.png)
 
