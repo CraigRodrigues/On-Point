@@ -19,9 +19,13 @@
 
 On Point is a geolocation-based Q&A where users ask and answer nearby questions in real-time. This full-stack application was written using Node, Express, React, Redux, and PostgreSQL.
 
+Ask a question and people within a 1/4 mile radius will hear that question immediately. See new questions as you move. Learn about the community around you!
+
 You can see the app here: [onpoint.me](onpoint.me)
 
-## Team (SF Cohort 73)
+![On Point Demo](http://i.imgur.com/nE1ib6Z.gif)
+
+## Team
 
   - Keith Alpichi
   - Craig Rodrigues
