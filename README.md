@@ -4,8 +4,9 @@
 
 [![Stories in Ready](https://badge.waffle.io/canorouscrocodiles/thesis.svg?label=ready&title=Ready)](http://waffle.io/canorouscrocodiles/thesis)
 
-SEE GIF HERE: http://i.imgur.com/nE1ib6Z.gifv
+## Short Video
 
+Click here: http://i.imgur.com/nE1ib6Z.gifv
 
 ## Table of Contents
 
