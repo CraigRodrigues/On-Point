@@ -4,6 +4,7 @@
 
 [![Stories in Ready](https://badge.waffle.io/canorouscrocodiles/thesis.svg?label=ready&title=Ready)](http://waffle.io/canorouscrocodiles/thesis)
 
+SEE GIF HERE: http://i.imgur.com/nE1ib6Z.gifv
 
 
 ## Table of Contents
@@ -23,7 +24,7 @@ Ask a question and people within a 1/4 mile radius will hear that question immed
 
 You can see the app here: [onpoint.me](onpoint.me)
 
-![On Point Demo](http://i.imgur.com/nE1ib6Z.gif)
+![On Point Screenshot](http://i.imgur.com/tkQCZGN.png)
 
 ## Team
 
