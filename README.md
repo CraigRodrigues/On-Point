@@ -19,9 +19,13 @@ Click here: http://i.imgur.com/nE1ib6Z.gifv
 
 ## Description
 
-On Point is a geolocation-based Q&A where users ask and answer nearby questions in real-time. This full-stack application was written using Node, Express, React, Redux, and PostgreSQL.
+On Point is a geolocation-based Q&A where users ask and answer nearby questions in real-time. This full-stack application used React, Redux, Node, Express, WebSockets, and PostgreSQL.
 
-Ask a question and people within a 1/4 mile radius will hear that question immediately. See new questions as you move. Learn about the community around you!
+Our mission behind On Point was to provide users faster valuable responses to their questions about the environment around them. I found that users often have questions about their surroundings but struggle to find reliable answers fast enough. On Point was created to connect users with questions to users answers around them. 
+
+I decided to pursue WebSockets using Socket.io and Redux to synchronize and maintain dynamic state. We were also able to consistently track a user's dynamic location at all times leveraging PostGIS so that we can provide the right users with the right information that were in a specific location.
+
+One major technical challenge we faced was cluttered map points at scale. I decided to pursue clustering algorithms to dynamically cluster and render map points at different zoom levels efficiently using a distance based dispersion of K. 
 
 ## You can play with the app live here: [onpoint.me](onpoint.me)
 
